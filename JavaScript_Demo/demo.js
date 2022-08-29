@@ -16,7 +16,7 @@ let linesvar = `this
 is a
 string with few lines`;
 console.log(linesvar);
-console.log("================")
+console.log("================");
 //模板字符串
 let name = "xiaoming";
 let age = 20;
