@@ -33,6 +33,7 @@ console.log(strlen.length);
 //获取指定位置字符串
 console.log(strlen[0]);
 console.log(strlen[6]);
+console.log("===============");
 console.log("常用方法：");
 console.log("转大写：" + strlen.toUpperCase());
 console.log("转小写：" + strlen.toLowerCase());
