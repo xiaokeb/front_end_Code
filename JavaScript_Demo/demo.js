@@ -9,7 +9,7 @@ var notnum = NaN;
 var wuxiannum = Infinity;
 
 //String类型，不可变
-var strvar = 'abc';
+var strvar = "abc";
 var strvar1 = "xyz";
 //多行字符串
 let linesvar = `this
@@ -20,7 +20,7 @@ console.log("================");
 //模板字符串
 let name = "xiaoming";
 let age = 20;
-let mes = "nihao, " + name +" age, " + age;
+let mes = "nihao, " + name + " age, " + age;
 console.log(mes);
 console.log("===============");
 //ES6支持
@@ -37,5 +37,11 @@ console.log("===============");
 console.log("常用方法：");
 console.log("转大写：" + strlen.toUpperCase());
 console.log("转小写：" + strlen.toLowerCase());
-console.log("搜索位置：" + strlen.indexOf('w'));
+console.log("搜索位置：" + strlen.indexOf("w"));
 console.log("子串：" + strlen.substring(6));
+
+//变量
+//声明方式
+var v1 = 1;    //有函数作用域的变量声明，可变
+let v2 = 2;    //块作用域，变量只能在声明后，作用域内使用，可变
+const v3 = 3;   //块作用域，声明后使用。可设置不重置。表示常量，不可变
