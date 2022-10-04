@@ -5,7 +5,7 @@ var intnum = 124;
 var floatnum = 1.34;
 var sciencenum = 1.23e3;
 var funum = -1;
-var notnum = NaN;
+var notnum = NaN; //检测尝试转换为数字的东西是否为有效数字
 var wuxiannum = Infinity;
 
 //String类型，不可变
@@ -45,3 +45,11 @@ console.log("子串：" + strlen.substring(6));
 var v1 = 1; //有函数作用域的变量声明，可变。全局可用
 let v2 = 2; //块作用域，变量只能在声明后，作用域内使用，可变，循环中使用
 const v3 = 3; //块作用域，声明后使用。可设置不重置。表示常量，不可变，default默认使用
+
+//检测类型：
+// typeof：typeof（变量/值），返回结果即为数据类型，array返回object，函数也是
+// instanceof：是否从特定数据类型的构造函数中创造，该类型会有实例构造函数生成，类似new xxx()形式
+let x = 0 == ""; //会强制转换为同一类型
+console.log(x);
+let y = 0 === ""; //不强制转换类型
+console.log(y);

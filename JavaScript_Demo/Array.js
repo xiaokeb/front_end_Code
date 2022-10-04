@@ -22,3 +22,9 @@ console.log("将1号位设置为8后" + arr_1);
 //splice(开始位置，个数，添加元素)： 从指定位置开始删除若干元素，然后从该位置添加元素/也可不添加
 //concat： 数组连接，返回新数组；不改变当前数组
 //join：将数组中每个元素用指定的符号连接起来
+
+//定义
+let arr1 = [];
+let arr2 = Array(5);
+console.log(arr1);
+console.log(arr2);
