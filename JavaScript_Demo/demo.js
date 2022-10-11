@@ -53,3 +53,7 @@ let x = 0 == ""; //会强制转换为同一类型
 console.log(x);
 let y = 0 === ""; //不强制转换类型
 console.log(y);
+
+//prompt(title, [default]): 显示信息，要求用户输入文本，点击确定返回文本，或点击取消/返回返回null
+// title: 提示信息
+// default: 可选参数，指定input框的初始值/用户输入的值
