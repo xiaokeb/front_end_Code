@@ -15,9 +15,9 @@ console.log("将1号位设置为8后" + arr_1);
 //常用函数
 //indexof: 索引指定元素
 //slice： 截取子串，返回新数组，包前不包后；无参数则为复制
-//push和pop： 添加和删除；空数组pop返回undefined
+//push和pop： 追加和删除最后一个元素；空数组pop返回undefined
 //unshift和shift： 在数组头部添加元素，使用unshift(); 删除头部第一个元素用shift()
-//sort：排序；
+//sort：排序; 按照字符编码顺序排序
 //reverse：数组反转
 //splice(开始位置，个数，添加元素)： 从指定位置开始删除若干元素，然后从该位置添加元素/也可不添加
 //concat： 数组连接，返回新数组；不改变当前数组

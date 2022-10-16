@@ -35,10 +35,16 @@ console.log(strlen[0]);
 console.log(strlen[6]);
 console.log("===============");
 console.log("常用方法：");
+console.log("下标为3的字符: " + strlen.charAt(3));
 console.log("转大写：" + strlen.toUpperCase());
 console.log("转小写：" + strlen.toLowerCase());
 console.log("搜索位置：" + strlen.indexOf("w"));
-console.log("子串：" + strlen.substring(6));
+console.log("截取子串：" + strlen.substring(6));
+//split方法，字符串会转换为数组对象
+console.log("分割(单词拆分为字母数组): " + strlen.split(""));
+//slice()，使用负数为从后往前切割
+console.log("slice分割: " + strlen.slice(3, 7));
+console.log("替换为1234: " + strlen.replace(strlen, "1234"));
 
 //变量
 //声明方式
@@ -49,6 +55,7 @@ const v3 = 3; //块作用域，声明后使用。可设置不重置。表示常�
 //检测类型：
 // typeof：typeof（变量/值），返回结果即为数据类型，array返回object，函数也是
 // instanceof：是否从特定数据类型的构造函数中创造，该类型会有实例构造函数生成，类似new xxx()形式
+console.log("类型检测: ");
 let x = 0 == ""; //会强制转换为同一类型
 console.log(x);
 let y = 0 === ""; //不强制转换类型
