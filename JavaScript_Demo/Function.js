@@ -27,4 +27,3 @@ sayHello("haha");
 
 //清除定时器
 //clearTimeout(定时器对象);
-
