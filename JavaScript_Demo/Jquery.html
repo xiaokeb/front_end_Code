@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <title>Jquery学习</title>
+    </head>
+    <body>
+        Jquery时JS插件库<br />
+        1.通过网络URL进行jQuery引用<br />
+        2.通过本地引入jQuery，下载jQuery.js文件，然后引入<br />
+        <hr />
+        选择器<br />
+        常用选择器: id选择器、类选择器、元素选择器<br />
+        <button>这是一个按钮, 使用标签</button>
+        <button id="b1">这是一个按钮, 使用id</button>
+        <button class="bt1">这是一个按钮, 使用class</button>
+    </body>
+    <script type="text/javascript">
+        $("button").click(function () {
+            alert("这是通过标签名寻找元素");
+        });
+
+        $("#b1").click(function () {
+            alert("这是通过id寻找元素");
+        });
+
+        $(".bt1").click(function () {
+            alert("这是通过class寻找元素");
+        });
+    </script>
+</html>
