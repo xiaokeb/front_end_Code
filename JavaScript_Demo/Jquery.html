@@ -17,18 +17,74 @@
         <button>这是一个按钮, 使用标签</button>
         <button id="b1">这是一个按钮, 使用id</button>
         <button class="bt1">这是一个按钮, 使用class</button>
-    </body>
+
+        <hr>
+        <!--通过Jquery隐藏元素-->
+        <h1>这是标题</h1>
+        <p>
+            <ul>
+                <li>北京</li>
+                <li>上海</li>
+                <li>广州</li>
+            </ul>
+        </p>
+        <p class="p1">
+            <ul>
+                <li>深圳</li>
+                <li>长沙</li>
+                <li>武汉</li>
+            </ul>
+        </p>
+        <p><a href="www.google.com" target="_blank">google</a></p>
+        <p><a href="www.baidu.com" target="_blank">百度</a></p>
+        <button>按钮</button>
+        <input type="button" value="按钮2">
+
+        <!--通过Jquery改变CSS样式-->
+        <table border="2">
+            <tr><th>姓名</th> <th>年龄</th></tr>
+            <tr><th>AA</th> <th>12</th></tr>
+            <tr><th>BB</th> <th>13</th></tr>
+            <tr><th>CC</th> <th>14</th></tr>
+            <tr><th>DD</th> <th>15</th></tr>
+            <tr><th>EE</th> <th>11</th></tr>
+        </table>
+
+        <!-- 滚动条事件 -->
+        <!-- 动画 -->
+
+    </body> 
     <script type="text/javascript">
-        $("button").click(function () {
-            alert("这是通过标签名寻找元素");
-        });
+        // $("button").click(function () {
+        //     alert("这是通过标签名寻找元素");
+        // });
 
-        $("#b1").click(function () {
-            alert("这是通过id寻找元素");
-        });
+        // $("#b1").click(function () {
+        //     alert("这是通过id寻找元素");
+        // });
 
-        $(".bt1").click(function () {
-            alert("这是通过class寻找元素");
-        });
+        // $(".bt1").click(function () {
+        //     alert("这是通过class寻找元素");
+        // });
+
+        // ready 函数：在整个文档加载完成后触发
+        // $(document).ready(function (){
+        //     $('button').click(function (){
+        //         $('*').hide(1000);
+        //     });
+        // });
+
+        // $(document).ready(function (){
+        //     $('input').click(function () {
+        //         alert('点击了按钮2')
+        //     });
+        // });
+
+        // $(document).ready(function () {
+        //     // 让表格偶数位置变色
+        //     $('tr:odd').css('background-color', 'red');
+        // })
+
+
     </script>
 </html>
